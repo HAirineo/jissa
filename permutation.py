@@ -1,3 +1,4 @@
+# Anaiss module
 # Factorial
 def factorial(number):
 	return (number * factorial(number - 1)) if (number > 0) else 1
