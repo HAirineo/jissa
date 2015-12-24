@@ -7,10 +7,6 @@ This is the coding playground for the program to be uploaded to the Intel Galile
         * Get the iPhone hash/encryption file
         * Formulate algorithm for getting all permutations from 0000 to 9999
         * Input all permutations to the target iPhone device
-    
-    12.25.2015 Update:
-        * Created a folder ('anaiss')
-        
 
 * DigiLog: A Digital Logic Design Calculator
     
@@ -26,4 +22,9 @@ This is the coding playground for the program to be uploaded to the Intel Galile
         * Added modules for number conversion to decimal
 
 * Updated: 12.24.2015 - 01:24
-* Updated: 12.25.2015 - 01:50
+   * Updated the project description
+* Updated: 12.25.2015 - 02:06
+   * Added the 'anaiss' and 'digilog' directories
+   * Moved the permutation.py to 'anaiss' directory
+   * Added modules whole-number-converter.py and decimal-number-converter.py
+   * Updated the project description
