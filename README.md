@@ -3,8 +3,7 @@
 This is the coding playground for the program to be uploaded to the Intel Galileo board.
 
 * Anaiss: An iPhone Passcode Brute-force Cracking Device
-    
-    To-do list:
+    * To-do list:
         * Get the iPhone hash/encryption file
         * Formulate algorithm for getting all permutations from 0000 to 9999
         * Input all permutations to the target iPhone device
