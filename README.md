@@ -13,13 +13,13 @@ This is the coding playground for the program to be uploaded to the Intel Galile
          * Study the schematic of a calculator
          * Validate given input is in correct format, i.e. in correct mathematical form
          * Isolate each operands and operators
-         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10)
+         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c) update]
          * Convert the result to the target base by division operation
     
 * Updated: 12.24.2015 - 01:24
    * Updated the project description
 * Updated: 12.25.2015 - 02:06
-   * Added the 'anaiss' and 'digilog' directories
-   * Moved the permutation.py to 'anaiss' directory
-   * Added modules whole-number-converter.py and decimal-number-converter.py
-   * Updated the project description
+   * Added the 'anaiss' and 'digilog' directories (a)
+   * Moved the permutation.py to 'anaiss' directory (b)
+   * Added modules whole-number-converter.py and decimal-number-converter.py (c)
+   * Updated the project description (d)
