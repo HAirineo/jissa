@@ -13,7 +13,7 @@ This is the coding playground for the program to be uploaded to the Intel Galile
          * Study the schematic of a calculator
          * Validate given input is in correct format, i.e. in correct mathematical form
          * Isolate each operands and operators
-         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c) update]
+         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c) & (e) update]
          * Convert the result to the target base by division operation
     
 * Updated: 12.24.2015 - 01:24
@@ -25,3 +25,5 @@ This is the coding playground for the program to be uploaded to the Intel Galile
    * Updated the project description (d)
 * Updated: 12.25.2015 - 19:00
    * Logged the accomplished task -- [Accomplished: 12.25.2015 (c) update]
+* Updated: 12.25.2015 - 19:12
+   * Added the module for separation of whole number and decimal number of a given number (e)
