@@ -1,16 +1,13 @@
-# This module separates the whole number and decimal number
-# portion of a given number. However, this is limited yet 
-# for the whole number portion as the return value
+# This module separates the whole number and decimal number portion of a given number
 def separate(expr):
-	whole_number = ""
-	decimal_number = ""
-	for x in range(len(str(expr))):
-		if str(expr[x]) == ".":
+	whole_number = ""; decimal_number = ""
+	for x in range(len(expr)):
+		if expr[x] == ".":
 			break
 		else:
-			whole_number += str(expr[x])
-	# Might be able to use ternary operator instead
-	# of the conventional if-else statement
-	return whole_number;
+			whole_number += expr[x]
+			decimal_number = expr.replace(expr[x], "")
+			decimal_number = decimal_number.replace(".", "")
+	return "whole number: " + whole_number, "decimal number: " + decimal_number;
 
-print separate(str(01.25))
+print separate(str(1.25))
