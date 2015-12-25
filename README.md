@@ -1,6 +1,7 @@
 # jissa
 
 This is the coding playground for the program to be uploaded to the Intel Galileo board.
+Note: Timestamp is in military time format
 
 * Anaiss: An iPhone Passcode Brute-force Cracking Device
     * To-do list:
@@ -13,7 +14,7 @@ This is the coding playground for the program to be uploaded to the Intel Galile
          * Study the schematic of a calculator
          * Validate given input is in correct format, i.e. in correct mathematical form
          * Isolate each operands and operators
-         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c) & (e) update]
+         * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c), (e), & (f) update]
          * Convert the result to the target base by division operation
     
 * Updated: 12.24.2015 - 01:24
@@ -27,3 +28,5 @@ This is the coding playground for the program to be uploaded to the Intel Galile
    * Logged the accomplished task -- [Accomplished: 12.25.2015 (c) update]
 * Updated: 12.25.2015 - 19:12
    * Added the module for separation of whole number and decimal number of a given number (e)
+* Updated: 12.25.2015 - 19:40
+   * Updated the given-number.py to separate whole number and decimal number of a given number (f)
