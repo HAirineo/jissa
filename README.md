@@ -1,6 +1,7 @@
 # jissa
 
 This is the coding playground for the program to be uploaded to the Intel Galileo board.
+
 Note: Timestamp is in military time format
 
 * Anaiss: An iPhone Passcode Brute-force Cracking Device
