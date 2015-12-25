@@ -23,3 +23,5 @@ This is the coding playground for the program to be uploaded to the Intel Galile
    * Moved the permutation.py to 'anaiss' directory (b)
    * Added modules whole-number-converter.py and decimal-number-converter.py (c)
    * Updated the project description (d)
+* Updated: 12.25.2015 - 19:00
+   * Logged the accomplished task -- [Accomplished: 12.25.2015 (c) update]
