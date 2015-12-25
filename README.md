@@ -35,3 +35,5 @@ Note: Timestamp is in military time format
       * "decimal-number-converter.py" --> "decimal.py"
       * "given-number.py" --> "given.py"
       * "whole-number-converter.py" --> "whole.py"
+* Updated: 12.25.2015 - 20:32
+   * Added digilog/Digilog.java file as the Java version of the DigiLog project
