@@ -43,3 +43,6 @@ Note: Timestamp is in military time format
 * Updated: 12.26.2015 - 14:50
    * Changed the value of x to 0 (digilog/decimal.py, line 5) -- conversion for the decimal part must start from left to right
    * Changed the increment of x from x -= 1 to x += 1 to accomodate the conversion from left to right (digilog/decimal.py, line 9)
+* Updated: 12.26.2015 - 15:05
+   * Removed the HashMap as the return value for digilog/Digilog.java [Digilog.separate(), lines 6-17] since the value from the HashMap cannot be converted to a number data type
+   * Completed the function to convert the decimal part to its base 10 equivalent [Digilog.decimal(), lines 19-25]
