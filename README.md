@@ -53,3 +53,5 @@ Note: Timestamp is in military time format
    * Renamed digilog/whole.py to digilog/digilog/Whole.py
    * Imported the digilog/digilog package in the digilog/given.py [given.py, line 2]
    * Used the methods from digilog/digilog/Decimal.py and digilog/digilog/Whole.py in the digilog/given.py [given.py, lines 16-17]
+* Updated: 12.26.2015 - 20:45
+   * Completed the function to convert the whole number part to its base 10 equivalent [Digilog.whole(), lines 27-33]
