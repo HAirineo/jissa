@@ -24,8 +24,11 @@ public class Digilog{
 		return dec;
 	}
 
-	static int whole(String input, int base){
-		int val = 0;
-		return val;
+	static int whole(String expr, int base){
+		int whole = 0;
+		for (int x = expr.length() - 1, y = 0; x >= 0 && y < expr.length(); x--, y++) {
+			whole += (int)(Character.digit(expr.charAt(x), 10) * Math.pow(base, y));
+		}
+		return whole;
 	}
 }
