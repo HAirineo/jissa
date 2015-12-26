@@ -46,3 +46,10 @@ Note: Timestamp is in military time format
 * Updated: 12.26.2015 - 15:05
    * Removed the HashMap as the return value for digilog/Digilog.java [Digilog.separate(), lines 6-17] since the value from the HashMap cannot be converted to a number data type
    * Completed the function to convert the decimal part to its base 10 equivalent [Digilog.decimal(), lines 19-25]
+* Updated: 12.26.2015 - 15:38
+   * Created the digilog/digilog package
+   * Added the digilog/digilog/__init__.py for other modules to import the digilog/digilog package
+   * Renamed digilog/decimal.py to digilog/digilog/Decimal.py
+   * Renamed digilog/whole.py to digilog/digilog/Whole.py
+   * Imported the digilog/digilog package in the digilog/given.py [given.py, line 2]
+   * Used the methods from digilog/digilog/Decimal.py and digilog/digilog/Whole.py in the digilog/given.py [given.py, lines 16-17]
