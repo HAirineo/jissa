@@ -2,11 +2,11 @@
 # the decimal point to its decimal equivalent
 def eval(expr, base):
 	digits = []
-	x = len(expr) - 1
+	x = 0
 	y = -1
-	while x >= 0 and (abs(y) - 1) < len(expr):
+	while x < len(expr) and (abs(y) - 1) < len(expr):
 		digits.append(float(expr[x]) * (float(base) ** y))
-		x -= 1
+		x += 1
 		y -= 1
 	return digits
 
