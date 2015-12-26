@@ -1,4 +1,4 @@
-# This module separates the whole number and decimal number portion of a given number
+# Module to separate whole number and decimal number portion of a given number
 import digilog
 
 def separate(expr):
@@ -13,5 +13,4 @@ def separate(expr):
 	return int(whole_number), int(decimal_number);
 
 expr = separate(str(1.25))
-print digilog.Decimal.decimal_evaluate(str(input("Enter a number to convert: ")), input("Enter the base of the number: "))
-print digilog.Whole.whole_evaluate(str(input("Enter a number to convert: ")), input("Enter the base of the number: "))
+print digilog.Whole.whole_evaluate(str(input("Enter a number to convert: ")), input("Enter the base of the number: ")) + digilog.Decimal.decimal_evaluate(str(input("Enter a number to convert: ")), input("Enter the base of the number: "))

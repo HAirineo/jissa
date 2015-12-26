@@ -1,5 +1,4 @@
-# This module converts the given expression to its decimal equivalent
-# However, this module is currently designed for whole number only
+# Module to convert the whole number to its base-10 equivalent
 def whole_evaluate(expr, base):
 	whole = 0
 	x = len(expr) - 1

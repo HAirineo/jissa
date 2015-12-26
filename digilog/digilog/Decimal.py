@@ -1,5 +1,4 @@
-# This module was designed to convert numbers after
-# the decimal point to its decimal equivalent
+# Module to convert decimal digits to their base-10 equivalent
 def decimal_evaluate(expr, base):
 	decimal = 0
 	x = 0
