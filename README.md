@@ -40,3 +40,6 @@ Note: Timestamp is in military time format
    * Added digilog/Digilog.java file as the Java version of the DigiLog project
 * Updated: 12.26.2015 - 00:55
    * Added and completed the separate() function in Digilog.java class
+* Updated: 12.26.2015 - 14:50
+   * Changed the value of x to 0 (digilog/decimal.py, line 5) -- conversion for the decimal part must start from left to right
+   * Changed the increment of x from x -= 1 to x += 1 to accomodate the conversion from left to right (digilog/decimal.py, line 9)
