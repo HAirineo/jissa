@@ -1,6 +1,7 @@
 # jissa
 
 This is the coding playground for the program to be uploaded to the Intel Galileo board.
+
 Note: Timestamp is in military time format
 
 * Anaiss: An iPhone Passcode Brute-force Cracking Device
@@ -37,3 +38,5 @@ Note: Timestamp is in military time format
       * "whole-number-converter.py" --> "whole.py"
 * Updated: 12.25.2015 - 20:32
    * Added digilog/Digilog.java file as the Java version of the DigiLog project
+* Updated: 12.26.2015 - 00:55
+   * Added and completed the separate() function in Digilog.java class
