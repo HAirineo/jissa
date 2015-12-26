@@ -1,23 +1,9 @@
-import java.util.HashMap;
-import java.util.Set;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
-
 public class Digilog{
 	public static void main(String[] args) {
-		HashMap map = new HashMap();
-		map = separate("123.456");
-		Set set = map.entrySet();
-		Iterator i = set.iterator();
-		while(i.hasNext()){
-			Map.Entry me = (Map.Entry)i.next();
-			System.out.println(me.getValue());
-		}
+		
 	}
 
-	static HashMap separate(String expr){
-		HashMap map = new HashMap();
+	static int separate(String expr){
 		String val = ""; String dec = "";
 		for (int x = 0; x < expr.length(); x++) {
 			if (expr.charAt(x) == '.') break;
@@ -27,14 +13,15 @@ public class Digilog{
 				dec = dec.substring(dec.indexOf(".") + 1, dec.length());
 			}
 		}
-		map.put("whole", val);
-		map.put("decimal", dec);
-		return map;
+		return Integer.parseInt(val);
 	}
 
-	static float decimal(String input, int base){
-		float val = 0;
-		return val;
+	static double decimal(String expr, int base){
+		double dec = 0;
+		for (int x = 0, y = -1; x < expr.length() && (Math.abs(y) - 1) < expr.length(); x++, y--) {
+			dec += (int)(Character.digit(expr.charAt(x), 10)) * Math.pow(base, y);
+		}
+		return dec;
 	}
 
 	static int whole(String input, int base){
