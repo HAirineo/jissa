@@ -59,3 +59,6 @@ Note: Timestamp is in military time format
    * Changed the source code documentation in digilog/digilog/Decimal.py, digilog/digilog/Whole.py, and digilog/given.py
 * Updated: 12.27.2015 - 19:00
    * Added the draft version of the Research Plan for the two projects: (1) Digilog, and (2) Anaiss
+* Updated: 12.27.2015 - 20:14
+   * Written the main() method of digilog/given.py, the method utilizes the separation of decimal number and whole number, then convertion to its base-10 equivalent from the given base
+      * To solve: Parsing of an expression (e.g. 123.123 (base 8) + 456.456 (base 16) = ?)
