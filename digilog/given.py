@@ -1,10 +1,13 @@
-import digilog, math
+import digilog, math, re
 # Use the math.eval() method to evaluate the expression to be given by the user
 
 def main():
-	number = str(input("Enter a number to convert: "))
-	base = input("Enter the base of the number: ")
-	print digilog.whole_evaluate(str(decimal_separate(number)[0]), base) + digilog.decimal_evaluate(str(decimal_separate(number)[1]), base)	
+	regexpr = r'\d+|[+/*-]'
+	expr = raw_input("Enter an expression: ")
+	elem = re.findall(regexpr, expr)
+	print elem
+	# base = input("Enter the base of the number: ")
+	# print digilog.whole_evaluate(str(decimal_separate(number)[0]), base) + digilog.decimal_evaluate(str(decimal_separate(number)[1]), base)	
 
 # decimal_separate(expr) separates the whole number and decimal number of an expression
 def decimal_separate(expr):
