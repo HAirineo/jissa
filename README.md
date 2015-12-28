@@ -62,3 +62,5 @@ Note: Timestamp is in military time format
 * Updated: 12.27.2015 - 20:14
    * Written the main() method of digilog/given.py, the method utilizes the separation of decimal number and whole number, then convertion to its base-10 equivalent from the given base
       * To solve: Parsing of an expression (e.g. 123.123 (base 8) + 456.456 (base 16) = ?)
+* Updated: 12.29.2015 - 00:29
+   * Added the regular expression that recognizes mathematical expression input per token (e.g. '10', '+', '10')
