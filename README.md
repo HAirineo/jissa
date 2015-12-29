@@ -69,3 +69,5 @@ Note: Timestamp is in military time format
    * Finalized the given.evaluate_expression() method (b)
 * Updated: 12.29.2015 - 20:02
    * Renamed digilog/given.py to digilog/main.py
+* Report: 12.30.2015 - 01:30
+   * Bug: Error in parsing operations -, *, and /. Only works on +
