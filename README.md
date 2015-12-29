@@ -13,7 +13,7 @@ Note: Timestamp is in military time format
 * DigiLog: A Digital Logic Design Calculator
     * To-do list:
          * Study the schematic of a calculator
-         * Validate given input is in correct format, i.e. in correct mathematical form [In progress: 12.29.2015 (a) update]
+         * Validate given input is in correct format, i.e. in correct mathematical form [Accomplished: 12.29.2015 (a) & (b) update]
          * Isolate each operands and operators
          * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c), (e), & (f) update]
          * Convert the result to the target base by division operation
@@ -64,3 +64,5 @@ Note: Timestamp is in military time format
       * To solve: Parsing of an expression (e.g. 123.123 (base 8) + 456.456 (base 16) = ?)
 * Updated: 12.29.2015 - 00:29
    * Added the regular expression that recognizes mathematical expression input per token (e.g. '10', '+', '10') (a)
+* Updated: 12.29.2015 - 19:05
+   * Finalized the evaluate_expression() method [digilog/given.py, lines 8-18] (b)
