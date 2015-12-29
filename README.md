@@ -14,8 +14,9 @@ Note: Timestamp is in military time format
     * To-do list:
          * Study the schematic of a calculator
          * Validate given input is in correct format, i.e. in correct mathematical form [Accomplished: 12.29.2015 (a) & (b) update]
-         * Isolate each operands and operators
+         * Isolate each operands and operators [Accomplished: 12.29.2015 (a) & (b)]
          * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c), (e), & (f) update]
+         * Calculate the result
          * Convert the result to the target base by division operation
     
 * Updated: 12.24.2015 - 01:24
