@@ -73,3 +73,6 @@ Note: Timestamp is in military time format
    * Bug: Error in parsing operations -, *, and /. Only works on +
 * Bug fixed: 12.30.2015 - 01:46
    * Accepts subtraction (-) operation, but still problem with multiplication (*) and division (/)
+* Report: 12.30.2015 - 02:05
+   * decimal_separate() function still gives decimal digits even if the given is integer
+      * Problem is in the conditional block [digilog/main.py, lines 12 - 17]
