@@ -66,6 +66,6 @@ Note: Timestamp is in military time format
 * Updated: 12.29.2015 - 00:29
    * Added the regular expression that recognizes mathematical expression input per token (e.g. '10', '+', '10') (a)
 * Updated: 12.29.2015 - 19:05
-   * Finalized the evaluate_expression() method [digilog/given.py, lines 8-18] (b)
+   * Finalized the evaluate_expression() method [digilog/given.py, lines 8 - 18] (b)
 * Updated: 12.29.2015 - 20:02
    * Renamed digilog/given.py to digilog/main.py
