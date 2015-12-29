@@ -71,3 +71,5 @@ Note: Timestamp is in military time format
    * Renamed digilog/given.py to digilog/main.py
 * Report: 12.30.2015 - 01:30
    * Bug: Error in parsing operations -, *, and /. Only works on +
+* Bug fixed: 12.30.2015 - 01:46
+   * Accepts subtraction (-) operation, but still problem with multiplication (*) and division (/)
