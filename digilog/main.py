@@ -13,10 +13,10 @@ def decimal_separate(expr):
 def evaluate_expression(expr, base):
 	"Returns the evaluated expression"
 	answer = "" # String to contain the answer
-	regexpr = r'\d+[.]\d+|\d+|[-+/*]' # Regex determining operators and operands
+	regexpr = r'\d+[.]\d+|\d+|[-+/*()]' # Regex determining operators and operands
 	regexpr_eval = re.findall(regexpr, expr) # Regex method finding all match
 	for x in range(len(regexpr_eval)):
-		if regexpr_eval[x] == "+" or regexpr_eval[x] == "-" or regexpr_eval[x] == "*" or regexpr_eval[x] == "/":
+		if regexpr_eval[x] == "+" or regexpr_eval[x] == "-" or regexpr_eval[x] == "*" or regexpr_eval[x] == "/" or regexpr_eval[x] == "(" or regexpr_eval[x] == ")":
 			# Concatenate the string as it is if it is an operand
 			answer += regexpr_eval[x]
 		else:
