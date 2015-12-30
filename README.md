@@ -80,3 +80,5 @@ Note: Timestamp is in military time format
    * decimal_separate() method has been revised of digilog/main.py. Instead of manual looping through characters, math.modf() function was used.
 * Bug fixed: 12.30.2015 - 20:14
    * Fixed the problem with acceptance of operators
+* Updated: 12.30.2015 - 20:24
+   * Added a Try...Catch clause for Syntax Error in evaluate_expression() method [digilog/main.py, lines 25-28]
