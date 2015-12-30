@@ -22,6 +22,9 @@ def evaluate_expression(expr, base):
 		else:
 			# Convert the number first before concatenating
 			answer += str(digilog.decimal_evaluate(decimal_separate(regexpr_eval[x])[0], base) + digilog.whole_evaluate(decimal_separate(regexpr_eval[x])[1], base))
-	return eval(answer)
+	try:
+		return eval(answer)
+	except SyntaxError:
+		return "Syntax Error!"
 
 main()
