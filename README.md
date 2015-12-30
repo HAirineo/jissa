@@ -90,4 +90,5 @@ Note: Timestamp is in military time format
    * Completed the separate() method in digilog/Digilog.java
 * Bug report: 12.31.2015 - 02:54
    * Must accept parenthesis as token
-   
+* Bug fixed: 12.31.2015 - 02:59
+   * Already accepts parenthesis as token
