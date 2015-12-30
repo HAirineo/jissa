@@ -88,3 +88,6 @@ Note: Timestamp is in military time format
    * Must test the eval() in the digilog/main.py, and set some security measures
 * Updated: 12.30.2015 - 21:51
    * Completed the separate() method in digilog/Digilog.java
+* Bug report: 12.31.2015 - 02:54
+   * Must accept parenthesis as token
+   
