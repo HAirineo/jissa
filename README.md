@@ -76,3 +76,5 @@ Note: Timestamp is in military time format
 * Report: 12.30.2015 - 02:05
    * decimal_separate() function still gives decimal digits even if the given is integer
       * Problem is in the conditional block [digilog/main.py, lines 12 - 17]
+* Revision: 12.30.2015 - 12:21
+   * decimal_separate() method has been revised of digilog/main.py. Instead of manual looping through characters, math.modf() function was used.
