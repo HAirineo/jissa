@@ -86,3 +86,5 @@ Note: Timestamp is in military time format
    * Add a validation to decline letter and other symbols as input
 * Report: 12.30.2015 - 21:41
    * Must test the eval() in the digilog/main.py, and set some security measures
+* Updated: 12.30.2015 - 21:51
+   * Completed the separate() method in digilog/Digilog.java
