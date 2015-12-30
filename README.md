@@ -92,3 +92,5 @@ Note: Timestamp is in military time format
    * Must accept parenthesis as token
 * Bug fixed: 12.31.2015 - 02:59
    * Already accepts parenthesis as token
+* Updated: 12.31.2015 - 03:14
+   * Added the revised version of the Research Plan for DigiLog
