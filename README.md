@@ -78,3 +78,5 @@ Note: Timestamp is in military time format
       * Problem is in the conditional block [digilog/main.py, lines 12 - 17]
 * Revision: 12.30.2015 - 12:21
    * decimal_separate() method has been revised of digilog/main.py. Instead of manual looping through characters, math.modf() function was used.
+* Bug fixed: 12.30.2015 - 20:14
+   * Fixed the problem with acceptance of operators
