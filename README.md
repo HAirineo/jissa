@@ -84,3 +84,5 @@ Note: Timestamp is in military time format
    * Added a Try...Catch clause for Syntax Error in evaluate_expression() method [digilog/main.py, lines 25-28]
 * Bug report: 12.30.2015 - 20:16
    * Add a validation to decline letter and other symbols as input
+* Report: 12.30.2015 - 21:41
+   * Must test the eval() in the digilog/main.py, and set some security measures
