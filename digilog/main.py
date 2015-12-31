@@ -12,10 +12,10 @@ def convert_result(result, target):
 	if result / target == 0:
 		return result
 	else:
+		answer = ""
 		while not int(result / target) == 0:
-			answer = ""
 			quotient = result / target
-			answer += str(int(result % target))
+			answer = hexa_convert(str(int(result % target))) + answer
 			result = quotient
 		else:
 			result = str(int(result)) + answer
