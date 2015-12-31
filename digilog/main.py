@@ -5,7 +5,7 @@ def main():
 	base = input("Enter the base of the numbers: ")
 	target = input("Enter the target base for the result: ")
 	print evaluate_expression(expr, base)
-	convert_result(evaluate_expression(expr, base), target)
+	print convert_result(evaluate_expression(expr, base), target)
 
 def convert_result(result, target):
 	"Returns the converted result to its target-base equivalent"
@@ -15,14 +15,11 @@ def convert_result(result, target):
 		while not int(result / target) == 0:
 			answer = ""
 			quotient = result / target
-			answer += str(result % target)
+			answer += str(int(result % target))
 			result = quotient
-			print "result:", result
-			print "answer:", answer
 		else:
 			result = str(int(result)) + answer
-			print result
-	return;
+	return result;
 
 def decimal_separate(expr):
 	"Returns the separated whole number and decimal number"
@@ -45,5 +42,21 @@ def evaluate_expression(expr, base):
 		return eval(answer)
 	except SyntaxError:
 		return "Syntax Error!"
+
+def hexa_convert(expr):
+	if expr == "10":
+		return "A"
+	elif expr == "11":
+		return "B"
+	elif expr == "12":
+		return "C"
+	elif expr == "13":
+		return "D"
+	elif expr == "14":
+		return "E"
+	elif expr == "15":
+		return "F"
+	else:
+		return expr
 
 main()
