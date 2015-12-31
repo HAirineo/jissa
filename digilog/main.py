@@ -7,6 +7,22 @@ def main():
 	print evaluate_expression(expr, base)
 	print convert_result(evaluate_expression(expr, base), target)
 
+def convert_hexa(expr):
+	if expr == "a" or expr == "A":
+		return "10"
+	elif expr == "b" or expr == "B":
+		return "11"
+	elif expr == "c" or expr == "C":
+		return "12"
+	elif expr == "d" or expr == "D":
+		return "13"
+	elif expr == "e" or expr == "E":
+		return "14"
+	elif expr == "f" or expr == "F":
+		return "15"
+	else:
+		return expr
+
 def convert_result(result, target):
 	"Returns the converted result to its target-base equivalent"
 	if result / target == 0:
@@ -19,7 +35,6 @@ def convert_result(result, target):
 			result = quotient
 		else:
 			result = hexa_convert(str(int(result))) + answer
-			print "else-result:", result
 	return result;
 
 def decimal_separate(expr):
