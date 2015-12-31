@@ -107,3 +107,5 @@ Note: Timestamp is in military time format
    * Does not output decimal [123.456 (base-16) --> 100100011 (base-2)]
 * Bug report: 01.01.2016 - 00:04
    * Parse hexadecimal inputs (A -> 10, B -> 11, C -> 12, etc.)
+* Updated: 01.01.2016 - 00:15
+   * Revised the Research Plan for DigiLog, added connecting wires to the materials.
