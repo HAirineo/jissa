@@ -109,3 +109,5 @@ Note: Timestamp is in military time format
    * Parse hexadecimal inputs (A -> 10, B -> 11, C -> 12, etc.)
 * Updated: 01.01.2016 - 00:15
    * Revised the Research Plan for DigiLog, added connecting wires to the materials.
+* Updated: 01.01.2016 - 00:45
+   * Added the parsing of hexadecimal tokens into decimal
