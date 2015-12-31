@@ -103,3 +103,5 @@ Note: Timestamp is in military time format
    * Used the hexa_convert() method. Testing needed. (f)
 * Updated: 12.31.2015 - 23:36
    * Added hexa_convert() method in the else block of convert_result() (g)
+* Bug report: 01.01.2016 - 00:00
+   * Does not output decimal [123.456 (base-16) --> 100100011 (base-2)]
