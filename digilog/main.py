@@ -18,7 +18,8 @@ def convert_result(result, target):
 			answer = hexa_convert(str(int(result % target))) + answer
 			result = quotient
 		else:
-			result = str(int(result)) + answer
+			result = hexa_convert(str(int(result))) + answer
+			print "else-result:", result
 	return result;
 
 def decimal_separate(expr):
