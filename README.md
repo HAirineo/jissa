@@ -98,3 +98,5 @@ Note: Timestamp is in military time format
    * Added the convert_result() method in  digilog/main.py (d)
 * Updated: 12.31.2015 - 21:35
    * Added the hexa_convert() method in the digilog/main.py module. It converts digits 10-15 to their hexadecimal equivalent (e)
+* Updated: 12.31.2015 - 23:12
+   * Used the hexa_convert() method. Testing needed.
