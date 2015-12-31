@@ -102,4 +102,4 @@ Note: Timestamp is in military time format
 * Updated: 12.31.2015 - 23:12
    * Used the hexa_convert() method. Testing needed. (f)
 * Updated: 12.31.2015 - 23:36
-   * Added hexa_convert() method in the else block of convert_result()
+   * Added hexa_convert() method in the else block of convert_result() (g)
