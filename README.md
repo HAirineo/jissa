@@ -17,7 +17,7 @@ Note: Timestamp is in military time format
          * Isolate each operands and operators [Accomplished: 12.29.2015 (a) & (b) update]
          * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c), (e), & (f) update]
          * Calculate the result [Accomplished: 12.29.2015 (a) & (b) update]
-         * Convert the result to the target base by division operation
+         * Convert the result to the target base by division operation [In progress: 12.31.2015 (d) update]
     
 * Updated: 12.24.2015 - 01:24
    * Updated the project description
@@ -89,8 +89,10 @@ Note: Timestamp is in military time format
 * Updated: 12.30.2015 - 21:51
    * Completed the separate() method in digilog/Digilog.java
 * Bug report: 12.31.2015 - 02:54
-   * Must accept parenthesis as token
+   * Must accept parenthesis as token (a)
 * Bug fixed: 12.31.2015 - 02:59
-   * Already accepts parenthesis as token
+   * Already accepts parenthesis as token (b)
 * Updated: 12.31.2015 - 03:14
-   * Added the revised version of the Research Plan for DigiLog
+   * Added the revised version of the Research Plan for DigiLog (c)
+* Updated: 12.31.2015 - 14:59
+   * Added the convert_result() method in  digilog/main.py (d)
