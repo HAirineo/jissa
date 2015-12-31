@@ -3,7 +3,26 @@ import digilog, math, re
 def main():
 	expr = raw_input("Enter an expression: ")
 	base = input("Enter the base of the numbers: ")
+	target = input("Enter the target base for the result: ")
 	print evaluate_expression(expr, base)
+	convert_result(evaluate_expression(expr, base), target)
+
+def convert_result(result, target):
+	"Returns the converted result to its target-base equivalent"
+	if result / target == 0:
+		return result
+	else:
+		while not int(result / target) == 0:
+			answer = ""
+			quotient = result / target
+			answer += str(result % target)
+			result = quotient
+			print "result:", result
+			print "answer:", answer
+		else:
+			result = str(int(result)) + answer
+			print result
+	return;
 
 def decimal_separate(expr):
 	"Returns the separated whole number and decimal number"
