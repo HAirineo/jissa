@@ -17,7 +17,7 @@ Note: Timestamp is in military time format
          * Isolate each operands and operators [Accomplished: 12.29.2015 (a) & (b) update]
          * Run through the operands per character for the positional notation conversion (to convert the given operands to base 10) [Accomplished: 12.25.2015 (c), (e), & (f) update]
          * Calculate the result [Accomplished: 12.29.2015 (a) & (b) update]
-         * Convert the result to the target base by division operation [In progress: 12.31.2015 (d), (e), & (f) update]
+         * Convert the result to the target base by division operation [In progress: 12.31.2015 (d), (e), (f), & (g) update]
 
 
 * Updated: 12.24.2015 - 01:24
