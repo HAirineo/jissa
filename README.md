@@ -111,3 +111,6 @@ Note: Timestamp is in military time format
    * Revised the Research Plan for DigiLog, added connecting wires to the materials.
 * Updated: 01.01.2016 - 00:45
    * Added the parsing of hexadecimal tokens into decimal
+* Updated: 01.01.2016 - 13:10
+   * Moved the methods convert_hexa(), convert_result(), and hexa_convert() of digilog/main.py to new module digilog/digilog/Converter.py
+   * Modified the imports of digilog/digilog/__init__.py to include the methods from new module Converter.py
