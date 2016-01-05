@@ -1,12 +1,22 @@
 import digilog, math, re
 
-def main():
-	expr = raw_input("Enter an expression: ")
-	base = input("Enter the base of the numbers: ")
-	target = input("Enter the target base for the result: ")
-	print evaluate_expression(expr, base)
-	print digilog.convert_result(evaluate_expression(expr, base), target)
+def validate(strg, search=re.compile(r'[1234567890^+-/*]').search):
+                return not bool(search(strg))
 
+def main():
+        
+        expr = raw_input("Enter an expression: ")
+        if validate(expr) == 1:
+           print("Invalid Input, please enter a valid expression")
+           main()
+        try:
+           base = input("Enter the base of the numbers: ")
+        except:
+           print("Invalid Input, please enter a numeric value")
+           main()
+	target = input("Enter the target base for the result: ")
+        print evaluate_expression(expr, base)
+        print digilog.convert_result(evaluate_expression(expr, base), target)
 def decimal_separate(expr):
 	"Returns the separated whole number and decimal number"
 			# Decimal number			Whole number
